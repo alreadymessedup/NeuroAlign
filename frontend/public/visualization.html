@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>NeuroAlign Data Visualization</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            font-family: sans-serif;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        #risk-score {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div className="container">
+        <h1>Gaze Target Analysis</h1>
+        <div id="risk-score">Loading data...</div>
+        <canvas id="gazeChart"></canvas>
+    </div>
+
+    <script>
+        fetch('synthetic_screening_data.json')
+            .then(response => response.json())
+            .then(data => {
+                const ctx = document.getElementById('gazeChart').getContext('2d');
+
+                document.getElementById('risk-score').innerText = `Risk Score: ${data.summary_stats.risk_score}`;
+
+                const timeline = data.timeline;
+                const labels = timeline.map(t => t.timestamp);
+
+                // Map Gaze to numeric values for scatter plot
+                // Void: 0, Stimulus: 1, Caregiver: 2
+                const yMapping = { 'Void': 0, 'Stimulus': 1, 'Caregiver': 2 };
+
+                const chartData = timeline.map(t => ({
+                    x: t.timestamp,
+                    y: yMapping[t.gaze_target]
+                }));
+
+                // Flapping regions
+                const flappingRegions = timeline.filter(t => t.hand_flapping_detected).map(t => t.timestamp);
+
+                new Chart(ctx, {
+                    type: 'scatter',
+                    data: {
+                        datasets: [{
+                            label: 'Gaze Target',
+                            data: chartData,
+                            backgroundColor: (context) => {
+                                const val = context.raw?.y;
+                                if (val === 2) return 'green'; // Caregiver
+                                if (val === 1) return 'blue';  // Stimulus
+                                return 'gray'; // Void
+                            },
+                            pointRadius: 5
+                        }]
+                    },
+                    options: {
+                        scales: {
+                            x: { title: { display: true, text: 'Time (s)' } },
+                            y: {
+                                ticks: {
+                                    callback: function (value) {
+                                        if (value === 0) return 'Void';
+                                        if (value === 1) return 'Stimulus';
+                                        if (value === 2) return 'Caregiver';
+                                        return '';
+                                    }
+                                },
+                                min: -0.5,
+                                max: 2.5
+                            }
+                        },
+                        plugins: {
+                            annotation: {
+                                annotations: {
+                                    // Complex to do regions in simple Chart.js without plugins
+                                }
+                            }
+                        }
+                    }
+                });
+            });
+    </script>
+</body>
+
+</html>

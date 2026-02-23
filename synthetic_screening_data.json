@@ -1,0 +1,714 @@
+{
+  "metadata": {
+    "subject_id": "SUB-2024-001",
+    "age_months": 36,
+    "session_duration_seconds": 10,
+    "frame_rate": 10
+  },
+  "timeline": [
+    {
+      "frame_id": 0,
+      "timestamp": 0.0,
+      "gaze_target": "Stimulus",
+      "hand_flapping_detected": false,
+      "body_orientation_angle": 179
+    },
+    {
+      "frame_id": 1,
+      "timestamp": 0.1,
+      "gaze_target": "Stimulus",
+      "hand_flapping_detected": false,
+      "body_orientation_angle": 168
+    },
+    {
+      "frame_id": 2,
+      "timestamp": 0.2,
+      "gaze_target": "Caregiver",
+      "hand_flapping_detected": false,
+      "body_orientation_angle": 211
+    },
+    {
+      "frame_id": 3,
+      "timestamp": 0.3,
+      "gaze_target": "Void",
+      "hand_flapping_detected": false,
+      "body_orientation_angle": 148
+    },
+    {
+      "frame_id": 4,
+      "timestamp": 0.4,
+      "gaze_target": "Void",
+      "hand_flapping_detected": false,
+      "body_orientation_angle": 234
+    },
+    {
+      "frame_id": 5,
+      "timestamp": 0.5,
+      "gaze_target": "Stimulus",
+      "hand_flapping_detected": false,
+      "body_orientation_angle": 190
+    },
+    {
+      "frame_id": 6,
+      "timestamp": 0.6,
+      "gaze_target": "Stimulus",
+      "hand_flapping_detected": false,
+      "body_orientation_angle": 238
+    },
+    {
+      "frame_id": 7,
+      "timestamp": 0.7,
+      "gaze_target": "Stimulus",
+      "hand_flapping_detected": false,
+      "body_orientation_angle": 108
+    },
+    {
+      "frame_id": 8,
+      "timestamp": 0.8,
+      "gaze_target": "Void",
+      "hand_flapping_detected": false,
+      "body_orientation_angle": 203
+    },
+    {
+      "frame_id": 9,
+      "timestamp": 0.9,
+      "gaze_target": "Void",
+      "hand_flapping_detected": false,
+      "body_orientation_angle": 204
+    },
+    {
+      "frame_id": 10,
+      "timestamp": 1.0,
+      "gaze_target": "Void",
+      "hand_flapping_detected": false,
+      "body_orientation_angle": 249
+    },
+    {
+      "frame_id": 11,
+      "timestamp": 1.1,
+      "gaze_target": "Stimulus",
+      "hand_flapping_detected": false,
+      "body_orientation_angle": 193
+    },
+    {
+      "frame_id": 12,
+      "timestamp": 1.2,
+      "gaze_target": "Caregiver",
+      "hand_flapping_detected": false,
+      "body_orientation_angle": 213
+    },
+    {
+      "frame_id": 13,
+      "timestamp": 1.3,
+      "gaze_target": "Stimulus",
+      "hand_flapping_detected": false,
+      "body_orientation_angle": 150
+    },
+    {
+      "frame_id": 14,
+      "timestamp": 1.4,
+      "gaze_target": "Caregiver",
+      "hand_flapping_detected": false,
+      "body_orientation_angle": 101
+    },
+    {
+      "frame_id": 15,
+      "timestamp": 1.5,
+      "gaze_target": "Void",
+      "hand_flapping_detected": false,
+      "body_orientation_angle": 244
+    },
+    {
+      "frame_id": 16,
+      "timestamp": 1.6,
+      "gaze_target": "Void",
+      "hand_flapping_detected": false,
+      "body_orientation_angle": 225
+    },
+    {
+      "frame_id": 17,
+      "timestamp": 1.7,
+      "gaze_target": "Void",
+      "hand_flapping_detected": false,
+      "body_orientation_angle": 195
+    },
+    {
+      "frame_id": 18,
+      "timestamp": 1.8,
+      "gaze_target": "Caregiver",
+      "hand_flapping_detected": false,
+      "body_orientation_angle": 140
+    },
+    {
+      "frame_id": 19,
+      "timestamp": 1.9,
+      "gaze_target": "Stimulus",
+      "hand_flapping_detected": false,
+      "body_orientation_angle": 113
+    },
+    {
+      "frame_id": 20,
+      "timestamp": 2.0,
+      "gaze_target": "Void",
+      "hand_flapping_detected": false,
+      "body_orientation_angle": 156
+    },
+    {
+      "frame_id": 21,
+      "timestamp": 2.1,
+      "gaze_target": "Stimulus",
+      "hand_flapping_detected": false,
+      "body_orientation_angle": 137
+    },
+    {
+      "frame_id": 22,
+      "timestamp": 2.2,
+      "gaze_target": "Void",
+      "hand_flapping_detected": false,
+      "body_orientation_angle": 232
+    },
+    {
+      "frame_id": 23,
+      "timestamp": 2.3,
+      "gaze_target": "Void",
+      "hand_flapping_detected": false,
+      "body_orientation_angle": 223
+    },
+    {
+      "frame_id": 24,
+      "timestamp": 2.4,
+      "gaze_target": "Stimulus",
+      "hand_flapping_detected": false,
+      "body_orientation_angle": 221
+    },
+    {
+      "frame_id": 25,
+      "timestamp": 2.5,
+      "gaze_target": "Void",
+      "hand_flapping_detected": false,
+      "body_orientation_angle": 235
+    },
+    {
+      "frame_id": 26,
+      "timestamp": 2.6,
+      "gaze_target": "Stimulus",
+      "hand_flapping_detected": false,
+      "body_orientation_angle": 213
+    },
+    {
+      "frame_id": 27,
+      "timestamp": 2.7,
+      "gaze_target": "Void",
+      "hand_flapping_detected": false,
+      "body_orientation_angle": 166
+    },
+    {
+      "frame_id": 28,
+      "timestamp": 2.8,
+      "gaze_target": "Void",
+      "hand_flapping_detected": false,
+      "body_orientation_angle": 158
+    },
+    {
+      "frame_id": 29,
+      "timestamp": 2.9,
+      "gaze_target": "Void",
+      "hand_flapping_detected": false,
+      "body_orientation_angle": 216
+    },
+    {
+      "frame_id": 30,
+      "timestamp": 3.0,
+      "gaze_target": "Void",
+      "hand_flapping_detected": false,
+      "body_orientation_angle": 135
+    },
+    {
+      "frame_id": 31,
+      "timestamp": 3.1,
+      "gaze_target": "Stimulus",
+      "hand_flapping_detected": false,
+      "body_orientation_angle": 101
+    },
+    {
+      "frame_id": 32,
+      "timestamp": 3.2,
+      "gaze_target": "Void",
+      "hand_flapping_detected": false,
+      "body_orientation_angle": 239
+    },
+    {
+      "frame_id": 33,
+      "timestamp": 3.3,
+      "gaze_target": "Void",
+      "hand_flapping_detected": false,
+      "body_orientation_angle": 162
+    },
+    {
+      "frame_id": 34,
+      "timestamp": 3.4,
+      "gaze_target": "Stimulus",
+      "hand_flapping_detected": false,
+      "body_orientation_angle": 157
+    },
+    {
+      "frame_id": 35,
+      "timestamp": 3.5,
+      "gaze_target": "Void",
+      "hand_flapping_detected": false,
+      "body_orientation_angle": 207
+    },
+    {
+      "frame_id": 36,
+      "timestamp": 3.6,
+      "gaze_target": "Void",
+      "hand_flapping_detected": false,
+      "body_orientation_angle": 169
+    },
+    {
+      "frame_id": 37,
+      "timestamp": 3.7,
+      "gaze_target": "Void",
+      "hand_flapping_detected": false,
+      "body_orientation_angle": 229
+    },
+    {
+      "frame_id": 38,
+      "timestamp": 3.8,
+      "gaze_target": "Stimulus",
+      "hand_flapping_detected": false,
+      "body_orientation_angle": 102
+    },
+    {
+      "frame_id": 39,
+      "timestamp": 3.9,
+      "gaze_target": "Stimulus",
+      "hand_flapping_detected": false,
+      "body_orientation_angle": 192
+    },
+    {
+      "frame_id": 40,
+      "timestamp": 4.0,
+      "gaze_target": "Caregiver",
+      "hand_flapping_detected": true,
+      "body_orientation_angle": 237
+    },
+    {
+      "frame_id": 41,
+      "timestamp": 4.1,
+      "gaze_target": "Stimulus",
+      "hand_flapping_detected": true,
+      "body_orientation_angle": 252
+    },
+    {
+      "frame_id": 42,
+      "timestamp": 4.2,
+      "gaze_target": "Stimulus",
+      "hand_flapping_detected": true,
+      "body_orientation_angle": 219
+    },
+    {
+      "frame_id": 43,
+      "timestamp": 4.3,
+      "gaze_target": "Void",
+      "hand_flapping_detected": true,
+      "body_orientation_angle": 229
+    },
+    {
+      "frame_id": 44,
+      "timestamp": 4.4,
+      "gaze_target": "Caregiver",
+      "hand_flapping_detected": true,
+      "body_orientation_angle": 240
+    },
+    {
+      "frame_id": 45,
+      "timestamp": 4.5,
+      "gaze_target": "Caregiver",
+      "hand_flapping_detected": true,
+      "body_orientation_angle": 113
+    },
+    {
+      "frame_id": 46,
+      "timestamp": 4.6,
+      "gaze_target": "Stimulus",
+      "hand_flapping_detected": true,
+      "body_orientation_angle": 141
+    },
+    {
+      "frame_id": 47,
+      "timestamp": 4.7,
+      "gaze_target": "Stimulus",
+      "hand_flapping_detected": true,
+      "body_orientation_angle": 153
+    },
+    {
+      "frame_id": 48,
+      "timestamp": 4.8,
+      "gaze_target": "Caregiver",
+      "hand_flapping_detected": true,
+      "body_orientation_angle": 107
+    },
+    {
+      "frame_id": 49,
+      "timestamp": 4.9,
+      "gaze_target": "Caregiver",
+      "hand_flapping_detected": true,
+      "body_orientation_angle": 191
+    },
+    {
+      "frame_id": 50,
+      "timestamp": 5.0,
+      "gaze_target": "Stimulus",
+      "hand_flapping_detected": true,
+      "body_orientation_angle": 143
+    },
+    {
+      "frame_id": 51,
+      "timestamp": 5.1,
+      "gaze_target": "Caregiver",
+      "hand_flapping_detected": true,
+      "body_orientation_angle": 212
+    },
+    {
+      "frame_id": 52,
+      "timestamp": 5.2,
+      "gaze_target": "Caregiver",
+      "hand_flapping_detected": true,
+      "body_orientation_angle": 197
+    },
+    {
+      "frame_id": 53,
+      "timestamp": 5.3,
+      "gaze_target": "Stimulus",
+      "hand_flapping_detected": true,
+      "body_orientation_angle": 254
+    },
+    {
+      "frame_id": 54,
+      "timestamp": 5.4,
+      "gaze_target": "Stimulus",
+      "hand_flapping_detected": true,
+      "body_orientation_angle": 162
+    },
+    {
+      "frame_id": 55,
+      "timestamp": 5.5,
+      "gaze_target": "Void",
+      "hand_flapping_detected": true,
+      "body_orientation_angle": 140
+    },
+    {
+      "frame_id": 56,
+      "timestamp": 5.6,
+      "gaze_target": "Void",
+      "hand_flapping_detected": true,
+      "body_orientation_angle": 112
+    },
+    {
+      "frame_id": 57,
+      "timestamp": 5.7,
+      "gaze_target": "Stimulus",
+      "hand_flapping_detected": true,
+      "body_orientation_angle": 178
+    },
+    {
+      "frame_id": 58,
+      "timestamp": 5.8,
+      "gaze_target": "Stimulus",
+      "hand_flapping_detected": true,
+      "body_orientation_angle": 110
+    },
+    {
+      "frame_id": 59,
+      "timestamp": 5.9,
+      "gaze_target": "Void",
+      "hand_flapping_detected": true,
+      "body_orientation_angle": 233
+    },
+    {
+      "frame_id": 60,
+      "timestamp": 6.0,
+      "gaze_target": "Void",
+      "hand_flapping_detected": true,
+      "body_orientation_angle": 252
+    },
+    {
+      "frame_id": 61,
+      "timestamp": 6.1,
+      "gaze_target": "Void",
+      "hand_flapping_detected": true,
+      "body_orientation_angle": 148
+    },
+    {
+      "frame_id": 62,
+      "timestamp": 6.2,
+      "gaze_target": "Void",
+      "hand_flapping_detected": true,
+      "body_orientation_angle": 126
+    },
+    {
+      "frame_id": 63,
+      "timestamp": 6.3,
+      "gaze_target": "Caregiver",
+      "hand_flapping_detected": true,
+      "body_orientation_angle": 100
+    },
+    {
+      "frame_id": 64,
+      "timestamp": 6.4,
+      "gaze_target": "Stimulus",
+      "hand_flapping_detected": true,
+      "body_orientation_angle": 164
+    },
+    {
+      "frame_id": 65,
+      "timestamp": 6.5,
+      "gaze_target": "Void",
+      "hand_flapping_detected": true,
+      "body_orientation_angle": 127
+    },
+    {
+      "frame_id": 66,
+      "timestamp": 6.6,
+      "gaze_target": "Stimulus",
+      "hand_flapping_detected": true,
+      "body_orientation_angle": 186
+    },
+    {
+      "frame_id": 67,
+      "timestamp": 6.7,
+      "gaze_target": "Void",
+      "hand_flapping_detected": true,
+      "body_orientation_angle": 161
+    },
+    {
+      "frame_id": 68,
+      "timestamp": 6.8,
+      "gaze_target": "Stimulus",
+      "hand_flapping_detected": true,
+      "body_orientation_angle": 205
+    },
+    {
+      "frame_id": 69,
+      "timestamp": 6.9,
+      "gaze_target": "Caregiver",
+      "hand_flapping_detected": true,
+      "body_orientation_angle": 151
+    },
+    {
+      "frame_id": 70,
+      "timestamp": 7.0,
+      "gaze_target": "Caregiver",
+      "hand_flapping_detected": true,
+      "body_orientation_angle": 185
+    },
+    {
+      "frame_id": 71,
+      "timestamp": 7.1,
+      "gaze_target": "Void",
+      "hand_flapping_detected": false,
+      "body_orientation_angle": 114
+    },
+    {
+      "frame_id": 72,
+      "timestamp": 7.2,
+      "gaze_target": "Stimulus",
+      "hand_flapping_detected": false,
+      "body_orientation_angle": 178
+    },
+    {
+      "frame_id": 73,
+      "timestamp": 7.3,
+      "gaze_target": "Stimulus",
+      "hand_flapping_detected": false,
+      "body_orientation_angle": 167
+    },
+    {
+      "frame_id": 74,
+      "timestamp": 7.4,
+      "gaze_target": "Void",
+      "hand_flapping_detected": false,
+      "body_orientation_angle": 102
+    },
+    {
+      "frame_id": 75,
+      "timestamp": 7.5,
+      "gaze_target": "Stimulus",
+      "hand_flapping_detected": false,
+      "body_orientation_angle": 166
+    },
+    {
+      "frame_id": 76,
+      "timestamp": 7.6,
+      "gaze_target": "Void",
+      "hand_flapping_detected": false,
+      "body_orientation_angle": 218
+    },
+    {
+      "frame_id": 77,
+      "timestamp": 7.7,
+      "gaze_target": "Stimulus",
+      "hand_flapping_detected": false,
+      "body_orientation_angle": 132
+    },
+    {
+      "frame_id": 78,
+      "timestamp": 7.8,
+      "gaze_target": "Stimulus",
+      "hand_flapping_detected": false,
+      "body_orientation_angle": 156
+    },
+    {
+      "frame_id": 79,
+      "timestamp": 7.9,
+      "gaze_target": "Stimulus",
+      "hand_flapping_detected": false,
+      "body_orientation_angle": 241
+    },
+    {
+      "frame_id": 80,
+      "timestamp": 8.0,
+      "gaze_target": "Stimulus",
+      "hand_flapping_detected": false,
+      "body_orientation_angle": 123
+    },
+    {
+      "frame_id": 81,
+      "timestamp": 8.1,
+      "gaze_target": "Stimulus",
+      "hand_flapping_detected": false,
+      "body_orientation_angle": 126
+    },
+    {
+      "frame_id": 82,
+      "timestamp": 8.2,
+      "gaze_target": "Stimulus",
+      "hand_flapping_detected": false,
+      "body_orientation_angle": 256
+    },
+    {
+      "frame_id": 83,
+      "timestamp": 8.3,
+      "gaze_target": "Stimulus",
+      "hand_flapping_detected": false,
+      "body_orientation_angle": 243
+    },
+    {
+      "frame_id": 84,
+      "timestamp": 8.4,
+      "gaze_target": "Void",
+      "hand_flapping_detected": false,
+      "body_orientation_angle": 158
+    },
+    {
+      "frame_id": 85,
+      "timestamp": 8.5,
+      "gaze_target": "Void",
+      "hand_flapping_detected": false,
+      "body_orientation_angle": 204
+    },
+    {
+      "frame_id": 86,
+      "timestamp": 8.6,
+      "gaze_target": "Void",
+      "hand_flapping_detected": false,
+      "body_orientation_angle": 215
+    },
+    {
+      "frame_id": 87,
+      "timestamp": 8.7,
+      "gaze_target": "Void",
+      "hand_flapping_detected": false,
+      "body_orientation_angle": 145
+    },
+    {
+      "frame_id": 88,
+      "timestamp": 8.8,
+      "gaze_target": "Stimulus",
+      "hand_flapping_detected": false,
+      "body_orientation_angle": 237
+    },
+    {
+      "frame_id": 89,
+      "timestamp": 8.9,
+      "gaze_target": "Void",
+      "hand_flapping_detected": false,
+      "body_orientation_angle": 125
+    },
+    {
+      "frame_id": 90,
+      "timestamp": 9.0,
+      "gaze_target": "Stimulus",
+      "hand_flapping_detected": false,
+      "body_orientation_angle": 104
+    },
+    {
+      "frame_id": 91,
+      "timestamp": 9.1,
+      "gaze_target": "Stimulus",
+      "hand_flapping_detected": false,
+      "body_orientation_angle": 141
+    },
+    {
+      "frame_id": 92,
+      "timestamp": 9.2,
+      "gaze_target": "Void",
+      "hand_flapping_detected": false,
+      "body_orientation_angle": 149
+    },
+    {
+      "frame_id": 93,
+      "timestamp": 9.3,
+      "gaze_target": "Caregiver",
+      "hand_flapping_detected": false,
+      "body_orientation_angle": 243
+    },
+    {
+      "frame_id": 94,
+      "timestamp": 9.4,
+      "gaze_target": "Stimulus",
+      "hand_flapping_detected": false,
+      "body_orientation_angle": 118
+    },
+    {
+      "frame_id": 95,
+      "timestamp": 9.5,
+      "gaze_target": "Stimulus",
+      "hand_flapping_detected": false,
+      "body_orientation_angle": 257
+    },
+    {
+      "frame_id": 96,
+      "timestamp": 9.6,
+      "gaze_target": "Void",
+      "hand_flapping_detected": false,
+      "body_orientation_angle": 178
+    },
+    {
+      "frame_id": 97,
+      "timestamp": 9.7,
+      "gaze_target": "Stimulus",
+      "hand_flapping_detected": false,
+      "body_orientation_angle": 217
+    },
+    {
+      "frame_id": 98,
+      "timestamp": 9.8,
+      "gaze_target": "Stimulus",
+      "hand_flapping_detected": false,
+      "body_orientation_angle": 237
+    },
+    {
+      "frame_id": 99,
+      "timestamp": 9.9,
+      "gaze_target": "Void",
+      "hand_flapping_detected": false,
+      "body_orientation_angle": 211
+    }
+  ],
+  "summary_stats": {
+    "joint_attention_ratio": 0.15,
+    "risk_score": 74
+  }
+}
