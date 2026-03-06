@@ -48,10 +48,6 @@ NeuroAlign/
 
 ## 🚀 Getting Started
 
-### Prerequisites
-
-- **Node.js** v18+
-- A **Google Gemini API key**
 
 ### 1. Clone the repository
 
